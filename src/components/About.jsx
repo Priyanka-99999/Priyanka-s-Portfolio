@@ -72,8 +72,8 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm Priyanka Nayak B, a Computer Science engineering student and full‑stack
-        developer. I build responsive, performant web apps using React.js, Node.js,
+        I'm Priyanka Nayak B, a Computer Science engineering student and UI Developer
+      . I build responsive, performant web apps using React.js, Node.js,
         Express, and MongoDB, with solid grounding in JS, HTML, and CSS. I enjoy
         solving real problems, collaborating with teams, and delivering clean,
         user‑friendly experiences.
@@ -84,6 +84,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      
     </>
   );
 };
