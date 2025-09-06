@@ -69,7 +69,7 @@ const services = [
   },
   */
   {
-    title: "Ui UX Designer",
+    title: "Ui  Developer",
     icon: creator,
   },
 ];
